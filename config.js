@@ -3,15 +3,15 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER || '254799173650'  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
+global.owner = process.env.OWNER_NUMBER || '97470463628'  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://ahil1:787191784abhi@ahil1.kzr1tt3.mongodb.net/?retrywrites=true&w=majority"
 global.port= process.env.PORT || 5000
-global.email = 'maxdavid126@gmail.com'
+global.email = 'sheriehstevens@gmail.com'
 global.github = 'https://github.com/Lavosti001'
-global.location = 'Lahore pakistan'
+global.location = 'Nairobi,Kenya'
 global.gurl = 'https://instagram.com/lavostii/' // add your username
-global.sudo = process.env.SUDO || "254799273650"
-global.devs = '2348059540212';
+global.sudo = process.env.SUDO || "97470463626"
+global.devs = '97470463628';
 global.website = 'https://github.com/Lavosti001' //wa.me/+91000000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/IMG-20231029-WA0098.jpg'
 module.exports = {
@@ -25,7 +25,7 @@ module.exports = {
   autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nbwoed' : process.env.ANTI_BAD_WORD,
   alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? true : process.env.ALWAYS_ONLINE,
-  antifake : process.env.FAKE_COUNTRY_CODE === undefined ? '254' : process.env.FAKE_COUNTRY_CODE,
+  antifake : process.env.FAKE_COUNTRY_CODE === undefined ? '91' : process.env.FAKE_COUNTRY_CODE,
   readmessage:  process.env.READ_MESSAGE === undefined ? false : process.env.READ_MESSAGE,
   auto_status_saver: process.env.AUTO_STATUS_SAVER === undefined ? false : process.env.AUTO_STATUS_SAVER,
   HANDLERS:  process.env.PREFIX === undefined ? '.' : process.env.PREFIX,
@@ -37,7 +37,7 @@ module.exports = {
   BRANCH: 'main', 
   ALIVE_MESSAGE:  process.env.ALIVE_MESSAGE === undefined ? '' : process.env.ALIVE_MESSAGE,
   autobio:  process.env.AUTO_BIO === undefined ? false : process.env.AUTO_BIO,
-  caption :process.env.CAPTION || "\t*•ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙʟᴀᴅᴇ-²²¹-ᴍᴅ•* ",   //*『sᴜʙsᴄʀɪʙᴇ • ʙʟᴀᴅᴇ ᴛᴇᴄʜ』*\n youtube.com/@blade444"),	
+  caption :process.env.CAPTION || "\t*•powered by La Vosti•* ",   //*『sᴜʙsᴄʀɪʙᴇ • ʙʟᴀᴅᴇ ᴛᴇᴄʜ』*\n youtube.com/@blade444"),	
   OPENAI_API_KEY:  process.env.OPENAI_API_KEY === undefined ? false : process.env.OPENAI_API_KEY,
   heroku:  process.env.heroku === undefined ? false : process.env.heroku,
   HEROKU: {
